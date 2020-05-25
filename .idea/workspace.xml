@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="543bb742-014d-424e-8625-d5d0ad3e15c4" name="Default Changelist" comment="" />
+    <list default="true" id="543bb742-014d-424e-8625-d5d0ad3e15c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codegen/GenerateDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codegen/GenerateEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codegen/GenerateXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codegen/DbWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codegen/DbWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codegen/DbWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codegen/DbWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,13 +36,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1cAoZESHD4Sd24ZNhjdkmdr75yu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -36,6 +55,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -47,7 +67,20 @@
       <recent name="C:\workspace\java\cyx-generator\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StartUp">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swust.Main" />
+      <module name="cyx-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StartUp" />
       <module name="cyx-generator" />
@@ -58,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StartUp" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +124,7 @@
       <workItem from="1590286591630" duration="184000" />
       <workItem from="1590287010476" duration="737000" />
       <workItem from="1590366510570" duration="1692000" />
+      <workItem from="1590403480979" duration="13016000" />
     </task>
     <servers />
   </component>
@@ -110,89 +145,73 @@
     </state>
     <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1590063687572" />
     <state x="669" y="38" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590367968639" />
-    <state x="557" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590232364871">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590416208534">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589986898220" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1590416208534" />
     <state x="557" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590232364871" />
     <state x="632" y="147" key="FileChooserDialogImpl" timestamp="1590367056012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589986711616" />
     <state x="632" y="147" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590367056012" />
-    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom" timestamp="1590418923785">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590063887520" />
+    <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590418923785" />
     <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center" timestamp="1590418923784">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590063887519" />
+    <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590418923784" />
     <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left" timestamp="1590418923784">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590063887519" />
+    <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590418923784" />
     <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right" timestamp="1590418923785">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590063887519" />
+    <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590418923785" />
     <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.1.bottom" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom" timestamp="1590418565329">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590063363981" />
+    <state width="1237" height="257" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590418565329" />
     <state width="1877" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.1.center" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="257" key="GridCell.Tab.1.center" timestamp="1590418565329">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590063363980" />
+    <state width="1237" height="257" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590418565329" />
     <state width="1877" height="258" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.1.left" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="257" key="GridCell.Tab.1.left" timestamp="1590418565329">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590063363979" />
+    <state width="1237" height="257" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590418565329" />
     <state width="1877" height="258" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
-    <state width="1877" height="258" key="GridCell.Tab.1.right" timestamp="1590368225510">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="257" key="GridCell.Tab.1.right" timestamp="1590418565329">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="523" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590063363980" />
+    <state width="1237" height="257" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590418565329" />
     <state width="1877" height="258" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590368225510" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589981570541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1589981570541" />
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1590366509974">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1590418512296">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590418512296" />
+    <state x="427" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1590403482394">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="427" y="224" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590403482394" />
     <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590366509974" />
-    <state x="455" y="2" width="1008" height="1037" key="search.everywhere.popup" timestamp="1590226394324">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1590416827706">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590063668361" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590416827706" />
     <state x="455" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590226394324" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StartUp.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StartUp.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/parser/ConfigurationParser.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

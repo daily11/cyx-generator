@@ -4,25 +4,27 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-    <classPathEntry location="E:\workspace\intellij_idea\mysql-connector-java-5.1.46.jar" />
+    <classPathEntry location="C:\workspace\java\mysql-connector-java-5.1.38.jar" />
     <context id="XHTables" targetRuntime="MyBatis3">
         <!--数据库连接-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/bsdb?useUnicode=true&amp;characterEncoding=UTF-8"
+                        connectionURL="jdbc:mysql://localhost:3306/springboot?useUnicode=true&amp;characterEncoding=UTF-8"
                         userId="root"
                         password="root">
         </jdbcConnection>
-        <!--model 和 example位置-->
-        <javaModelGenerator targetPackage="entity" targetProject="E:\workspace\intellij_idea\cyx-generator\src\main\java\test">
+        <!--entity文件位置-->
+        <javaModelGenerator targetPackage="com.swust.entity" targetProject="src/main/java">
         </javaModelGenerator>
-        <!--mapping文件位置-->
-        <sqlMapGenerator targetPackage="dao"  targetProject="E:\workspace\intellij_idea\cyx-generator\src\main\java\test">
+        <!--dao文件位置-->
+        <sqlMapGenerator targetPackage="com.swust.dao"  targetProject="src/main/java">
         </sqlMapGenerator>
         <!--XML位置-->
-        <javaClientGenerator type="mapping" targetPackage="dao" targetProject="E:\workspace\intellij_idea\cyx-generator\src\main\java\test">
+        <javaClientGenerator targetPackage="com.swust.mapping" targetProject="src/main/java">
         </javaClientGenerator>
         <!--要生成的表名-->
-        <table tableName="user_info" domainObjectName="UserInfo" />
-        <table tableName="person_info" domainObjectName="PersonInfo" />
+        <table tableName="hello" domainObjectName="Hello">
+        </table>
+        <table tableName="book" domainObjectName="Book">
+        </table>
     </context>
 </generatorConfiguration>
